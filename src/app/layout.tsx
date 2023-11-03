@@ -14,9 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <FluentProvider theme={webLightTheme}>
         <body>{children}</body>
-      </FluentProvider>
     </html>
   )
 }

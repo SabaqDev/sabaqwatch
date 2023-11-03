@@ -1,11 +1,11 @@
 "use client"
 
-import { Button, FluentProvider } from "@fluentui/react-components"
+import { Button, FluentProvider, webLightTheme } from "@fluentui/react-components"
 
 export default function Home() {
   return (
-    <FluentProvider>
-      <Button appearance="primary">Check Button</Button>
+    <FluentProvider theme={webLightTheme}>
+      <Button onClick={() => { alert("Hola") }} appearance="primary">Check Button</Button>
     </FluentProvider>
   )
 }
