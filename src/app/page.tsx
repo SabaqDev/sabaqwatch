@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <FluentProvider theme={webLightTheme}>
       <Button onClick={() => { alert("Hola") }} appearance="primary">Check Button</Button>
+      <Button onClick={() => { alert("Adios") }} appearance="primary">Check Button</Button>
     </FluentProvider>
   )
 }
