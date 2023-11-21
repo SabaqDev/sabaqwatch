@@ -5,7 +5,7 @@ import { Button, FluentProvider, webLightTheme } from "@fluentui/react-component
 export default function Home() {
   return (
     <FluentProvider theme={webLightTheme}>
-      <Button onClick={() => { alert("Hola") }} appearance="primary">login</Button>
+      <Button onClick={() => { alert("Hola 2") }} appearance="primary">login</Button>
     </FluentProvider>
   )
 }
